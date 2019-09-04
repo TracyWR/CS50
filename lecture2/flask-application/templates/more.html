@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+  First Page
+{% endblock %}
+
+{% block body %}
+    Hi, there are {{ headline }}
+<br>
+<a href="{{ url_for('index') }}">Go Back</a>
+{% endblock %}
